@@ -1,0 +1,75 @@
+* { margin: 0; padding: 0; }
+
+body { background: #fff; font-family: arial, verdana, helvetica, sans-serif; font-size: 11px; line-height: 1.6em; color: #828282; }
+
+a { color: #828282; }
+a:hover { color: #1769A5; }
+
+h1, h2, h3 { font-weight: normal; margin-bottom: 10px; }
+h1 { font-size: 14px; }
+h2 { font-size: 12px; }
+h3 { font-size: 11px; }
+
+.clearer { clear: both; }
+
+.menu li { list-style-type: none; }
+.menu a { text-decoration: none; }
+.menu li a:hover,
+.menu li.active a { color: #1769A5; }
+
+
+.wrapper { width: 940px; margin: 20px auto; }
+
+.kopf { position: relative; margin-bottom: 20px; height: 210px; }
+.kopfLinks,
+.hauptteilLinks { float: left; width: 350px; }
+.kopfLinks { height: 210px; }
+.kopfRechts,
+.hauptteilRechts { float: left; width: 590px; overflow: hidden; }
+.kopfRechts { height: 210px; }
+
+.logo { margin-top: 80px; }
+#nebenmenu { position: absolute; bottom: -3px; }
+#nebenmenu li { display: inline; margin-right: 10px; }
+#nebenmenu li a { margin-right: 10px; }
+#nebenmenu li:after { content: "|"; }
+#nebenmenu li.last:after { content: ""; }
+
+.hauptteil { position: relative; margin-bottom: 20px; }
+.hauptteilLinks { position: relative; }
+
+#hauptmenu { position: relative; }
+#hauptmenu li { margin-bottom: 8px; line-height: 1.1em; width: 140px; }
+#hauptmenu li a { text-transform: uppercase; }
+#hauptmenu li ul { position: absolute; top: 0; left: 145px; }
+#hauptmenu li li { width: 170px; display: none; }
+#hauptmenu li.active li { display: block; }
+#hauptmenu li li a { color: #828282; }
+#hauptmenu li li a:hover,
+#hauptmenu li li.active a { color: #1769A5; }
+
+.inhalt { min-height: 270px; }
+.inhalt p,
+.fuss p { margin: 10px 0; }
+/*.steuernews { border: 1px solid #ccc; padding: 10px; margin-top: 20px; width: 290px; }
+.steuernews .ueberschrift { font-weight: bold; text-decoration: underline; text-transform: uppercase; }*/
+
+hr.trenner { height: 2px; border: none; background: url(dots.png); margin-bottom: 20px; }
+.fuss { position: relative; margin-bottom: 20px; line-height: 1.2em; }
+
+form       { width: 100%; }
+fieldset.tx-powermail-pi1_fieldset legend   { display:none; }
+fieldset.tx-powermail-pi1_fieldset      { background: none repeat scroll 0 0 transparent; border: 1px solid #ccc; padding: 10px; }
+fieldset.tx-powermail-pi1_fieldset div.even   { background-color: transparent; }
+fieldset.tx-powermail-pi1_fieldset input.powermail_submit { margin:5px 0 0 129px; }
+fieldset.tx-powermail-pi1_fieldset label, p.tx_powermail_pi1_fieldwrap_html_radio_title   { width: 119px; font-weight: normal; text-align: right; padding-right: 10px; }
+fieldset.tx-powermail-pi1_fieldset input.powermail_text, fieldset.tx-powermail-pi1_fieldset select.powermail_select, input#uid8_hr, input#uid20_hr, input#uid32_hr   { width: 355px; }
+fieldset.tx-powermail-pi1_fieldset textarea.powermail_textarea  { font-family: Arial, Verdana, sans-serif; font-size: 100%; height: 140px; padding: 2px; width: 355px; }
+div.tx_powermail_pi1_fieldwrap_html     { margin:4px 0; }
+fieldset.tx-powermail-pi1_fieldset #powermaildiv_uid8 label { padding-top: 9px; }
+fieldset.tx-powermail-pi1_fieldset input.powermail_captcha { background: none repeat scroll 0 0 #F8F8F8; border: 1px solid #CCCCCC; box-shadow: 0 0 5px #EEEEEE inset; padding: 2px; width: 120px; }
+
+div.tx-felogin-pi1 fieldset legend { display: none; }
+div.tx-felogin-pi1 fieldset { background: none repeat scroll 0 0 transparent; border: 1px solid #ccc; padding: 10px; }
+div.tx-felogin-pi1 fieldset input {  }
+div.tx-felogin-pi1 fieldset input[type="submit"] { margin: 10px 0 0 0px; }

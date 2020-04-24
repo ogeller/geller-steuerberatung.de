@@ -1,0 +1,10 @@
+.rot { color: #da251d; }
+.schrift10px { font-size: 10px; }
+.schrift12px { font-size: 12px; }
+.schrift14px { font-size: 14px; }
+.schrift25px { font-size: 25px; }
+.schrift35px { font-size: 35px; }
+.linksbuendig { text-align: left; }
+.rechtsbuendig { text-align: right; }
+.zentriert { text-align: center; }
+.rahmen { border: 1px solid #ccc; padding: 10px; }

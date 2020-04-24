@@ -1,0 +1,5 @@
+a.efvEditorlinks { text-decoration:none; }
+a:link.efvEditorlinks { color:#1769A5; }
+a:hover.efvEditorlinks { color:#FF0000; }
+a:active.efvEditorlinks { color:#FF0000; }
+td.efvEditorback a { font-weight: bold; color:#1769A5; }
